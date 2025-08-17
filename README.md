@@ -35,15 +35,19 @@ Este proyecto es una API REST para gestionar tareas (To-Do List), desarrollada c
 
 ---
 
-## Cómo ejecutar el proyecto
 
+## Testing
+
+Se utiliza Jest para realizar pruebas unitarias de los controladores de usuario y tareas.
+
+### Cómo ejecutar los tests
 1. Instala las dependencias:
 	```powershell
 	npm install
 	```
-2. Ejecuta el servidor:
+2. Ejecuta los tests:
 	```powershell
-	node src/app.js
+	npx jest
 	```
 
 ---
@@ -81,13 +85,17 @@ This project is a REST API for managing tasks (To-Do List), built with Node.js, 
 
 ---
 
-## How to run the project
 
+## Testing
+
+Jest is used to perform unit tests for user and task controllers.
+
+### How to run the tests
 1. Install dependencies:
 	```powershell
 	npm install
 	```
-2. Start the server:
+2. Run the tests:
 	```powershell
-	node src/app.js
+	npx jest
 	```
