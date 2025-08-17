@@ -1,4 +1,5 @@
 
+
 # BE-To-Do-List
 
 ## API de Notas/Tareas (To-Do List)
@@ -17,6 +18,19 @@ Este proyecto es una API REST para gestionar tareas (To-Do List), desarrollada c
 
 ---
 
+## Cómo ejecutar el proyecto
+
+1. Instala las dependencias:
+	```powershell
+	npm install
+	```
+2. Ejecuta el servidor:
+	```powershell
+	node src/app.js
+	```
+
+---
+
 ## Notes/Tasks API (To-Do List)
 
 This project is a REST API for managing tasks (To-Do List), built with Node.js, Express, and MongoDB. It allows you to create, read, update, delete, and mark tasks as done. Includes simple user authentication (register and login).
@@ -30,3 +44,16 @@ This project is a REST API for managing tasks (To-Do List), built with Node.js, 
 - bcryptjs
 - dotenv
 - cors
+
+---
+
+## How to run the project
+
+1. Install dependencies:
+	```powershell
+	npm install
+	```
+2. Start the server:
+	```powershell
+	node src/app.js
+	```
