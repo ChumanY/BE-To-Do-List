@@ -1,0 +1,28 @@
+{
+  "name": "be-to-do-list",
+  "version": "1.0.0",
+  "description": "Este proyecto es una API REST para gestionar tareas (To-Do List), desarrollada con Node.js, Express y MongoDB. Permite crear, leer, actualizar, eliminar y marcar tareas como hechas. Incluye autenticación de usuario simple (registro y login).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChumanY/BE-To-Do-List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChumanY/BE-To-Do-List/issues"
+  },
+  "homepage": "https://github.com/ChumanY/BE-To-Do-List#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1"
+  }
+}
